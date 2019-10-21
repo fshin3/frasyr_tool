@@ -13,6 +13,9 @@ library(gridExtra)
 library(frasyr)
 # devtools::load_all("../../frasyr") # ローカルフォルダのファイルからロードする場合
 
+# If you open file with SHIFT-JIS as default setting on Rstudio, please reopnen the file by clicking [FILE]-{Reopen with Encoding...] and select [UTF-8]. If its OK, then please check "Set as default encoding for source file" when open it next time.
+# Rstuioを開いた際のデフォルトのホームディレクトリを確認してください。以下のファイルが存在するディレクトリにsetwd("該当する階層")で移動してください。
+
 # 科学者会議で計算：MSY管理基準値の計算
 source("1do_MSYest.r", encoding="UTF-8")
 #-- 計算内容
